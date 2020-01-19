@@ -1,4 +1,4 @@
-package zcmee.com.github.FullTesing.example1;
+package zcmee.com.github.FullTesing.example1.account;
 
 public class Account {
 

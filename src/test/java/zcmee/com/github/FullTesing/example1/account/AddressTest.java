@@ -1,4 +1,4 @@
-package zcmee.com.github.FullTesing.example1;
+package zcmee.com.github.FullTesing.example1.account;
 
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;

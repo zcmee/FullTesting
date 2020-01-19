@@ -1,8 +1,11 @@
-package zcmee.com.github.FullTesing.example1;
+package zcmee.com.github.FullTesing.example1.order;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import zcmee.com.github.FullTesing.example1.Meal;
+import zcmee.com.github.FullTesing.example1.order.Order;
+import zcmee.com.github.FullTesing.example1.order.OrderBackup;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

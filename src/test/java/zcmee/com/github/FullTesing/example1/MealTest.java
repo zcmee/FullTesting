@@ -7,6 +7,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
 import org.junit.jupiter.params.provider.ValueSource;
+import zcmee.com.github.FullTesing.example1.order.Order;
 
 
 import java.util.ArrayList;
@@ -20,13 +21,13 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MealTest {
-    private Order order;
+    private zcmee.com.github.FullTesing.example1.order.Order order;
 
     @BeforeEach
         // w JUnit 4 było Before
     void initializeOrder() {
         System.out.println("Inside @BeforeEach method");
-        this.order = new Order();
+        this.order = new zcmee.com.github.FullTesing.example1.order.Order();
     }
 
     @AfterEach
@@ -199,7 +200,7 @@ class MealTest {
 
     @TestFactory
     Collection<DynamicTest> calculateMealPrice() {
-        Order order = new Order();
+        zcmee.com.github.FullTesing.example1.order.Order order = new Order();
         order.addMealToOrder(new Meal(12, 2, "Hamburger"));
         order.addMealToOrder(new Meal(7, 4, "Fries"));
         order.addMealToOrder(new Meal(22, 3, "Pizza"));
