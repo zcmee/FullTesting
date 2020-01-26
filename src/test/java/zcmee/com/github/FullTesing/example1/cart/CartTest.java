@@ -1,7 +1,9 @@
-package zcmee.com.github.FullTesing.example1;
+package zcmee.com.github.FullTesing.example1.cart;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import zcmee.com.github.FullTesing.example1.Meal;
+import zcmee.com.github.FullTesing.example1.cart.Cart;
 import zcmee.com.github.FullTesing.example1.order.Order;
 
 import java.time.Duration;

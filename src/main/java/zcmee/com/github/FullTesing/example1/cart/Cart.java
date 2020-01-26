@@ -1,5 +1,6 @@
-package zcmee.com.github.FullTesing.example1;
+package zcmee.com.github.FullTesing.example1.cart;
 
+import zcmee.com.github.FullTesing.example1.Meal;
 import zcmee.com.github.FullTesing.example1.order.Order;
 
 import java.util.ArrayList;
